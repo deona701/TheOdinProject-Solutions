@@ -1,10 +1,44 @@
+.part-1 {
+    background-color: #1f2937;
+    padding: 32px 80px;
+}
+
 .header {
+    font-family: roboto;
+    font-size: 24px;
+    color: #f9faf8;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
+    font-family: roboto;
+    font-size: 18px;
+    color: #e5e7eb;
     display: flex;
     gap: 24px;
+}
+
+.awesome-website {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.awesome-website h1 {
+    font-weight: 900; 
+    font-size: 48px; 
+    color: #f9faf8
+}
+.awesome-website p {
+    opacity: 0.6; 
+    font-size: 18px; 
+    color: #e5e7eb;
+}
+.awesome-website img {
+    width: 500px; 
+    height: 200px;
+}
+.awesome-website button {
+    color: #3882f6;
 }
