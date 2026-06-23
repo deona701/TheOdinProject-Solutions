@@ -40,5 +40,22 @@
     height: 200px;
 }
 .awesome-website button {
-    color: #3882f6;
+    background-color: #3882f6;
+    color: white;
+}
+
+.four-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.card img {
+    width: 100%;
+    height: auto;
 }
