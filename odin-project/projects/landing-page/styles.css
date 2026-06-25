@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 .awesome-website h1 {
     font-weight: 900; 
@@ -38,6 +39,10 @@
 .awesome-website img {
     width: 500px; 
     height: 200px;
+    border: 4px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
 }
 .awesome-website button {
     background-color: #3882f6;
