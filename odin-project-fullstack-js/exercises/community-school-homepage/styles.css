@@ -55,3 +55,32 @@ h1 {
 h2 {
   margin-bottom: 0;
 }
+
+a {
+  text-decoration: underline;
+}
+
+a:link {
+  color: #aa6666;
+}
+a:visited {
+    color: #402121;
+}
+a:hover, a:focus {
+  color: #9e7d7d;
+  text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.60em;
+  height: 0.60em;
+  margin-left: 3px;
+  background-image: url("external-link-52.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
