@@ -33,3 +33,7 @@ footer {
 footer p {
   text-align: center;
 }
+
+p, h1, h2, li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
