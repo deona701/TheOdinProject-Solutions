@@ -56,6 +56,17 @@ h2 {
   margin-bottom: 0;
 }
 
+ul, ol {
+  line-height: 1.2;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 0.28em;
+}
+
 a {
   text-decoration: underline;
 }
