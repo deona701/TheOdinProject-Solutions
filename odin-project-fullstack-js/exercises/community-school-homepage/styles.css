@@ -34,6 +34,24 @@ footer p {
   text-align: center;
 }
 
+section h2 + p {
+  text-indent: 2rem;
+}
+
 p, h1, h2, li {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+p {
+    line-height: 1.2;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
 }
